@@ -2,8 +2,14 @@ def oxford_comma(array)
   string = ""
   counter = 0
   loop do 
+    if counter == (array.size -1)
+      string << "and #{array[i]}"
+    else
+      string << "#{array[i]}, "
+    end
+    counter += 1
+    if counter == array.size
+      break
+    end
   end
-  puts array.size
 end
-
-oxford_comma([1, 2, 3, 4])
