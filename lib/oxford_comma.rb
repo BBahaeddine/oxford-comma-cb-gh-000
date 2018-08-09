@@ -5,7 +5,8 @@ def oxford_comma(array)
      string << "#{array[0]}"
   elsif array.size == 2
     string << "#{array[0]} and #{array[1]}"
-  end
+  else
+  
   loop do
     init = array.size - 1
     if counter == init
@@ -18,6 +19,7 @@ def oxford_comma(array)
       break
     end
   end
+end
   return string
 end
 
