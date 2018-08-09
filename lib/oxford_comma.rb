@@ -1,4 +1,8 @@
 def oxford_comma(array)
+  string = ""
+  counter = 0
+  loop do 
+  end
   puts array.size
 end
 
