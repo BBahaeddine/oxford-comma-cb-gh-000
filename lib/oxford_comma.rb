@@ -4,9 +4,9 @@ def oxford_comma(array)
   loop do
     init = array.size - 1
     if counter == init
-      string << "and #{array[i]}"
+      string << "and #{array[counter]}"
     else
-      string << "#{array[i]}, "
+      string << "#{array[counter]}, "
     end
     counter += 1
     if counter == array.size
