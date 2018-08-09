@@ -12,4 +12,5 @@ def oxford_comma(array)
       break
     end
   end
+  return string
 end
